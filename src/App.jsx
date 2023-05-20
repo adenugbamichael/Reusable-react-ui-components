@@ -3,24 +3,30 @@ import Button from "./Button"
 
 function App() {
   const handleClick = () => {
-    console.log("Click!")
+    console.log("Clicked")
   }
   return (
     <div>
       <div>
-        <Button secondary outline rounded onClick={handleClick}>
+        <Button
+          secondary
+          outline
+          rounded
+          className='mb-5'
+          onClick={handleClick}
+        >
           <GoBell />
           Click me!
         </Button>
       </div>
       <div>
-        <Button danger outline>
+        <Button danger outline onMouseEnter={handleClick}>
           <GoCloudDownload />
           Buy Now!
         </Button>
       </div>
       <div>
-        <Button warning>
+        <Button warning onMouseLeave={handleClick}>
           <GoDatabase />
           See Deal!
         </Button>
