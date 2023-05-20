@@ -3,12 +3,14 @@ const App = () => {
   return (
     <div>
       <div>
-        <Button success rounded outline>
-          Click me!
+        <Button secondary outline rounded>
+          Click me!!
         </Button>
       </div>
       <div>
-        <Button danger>Buy Now!</Button>
+        <Button danger outline>
+          Buy Now!
+        </Button>
       </div>
       <div>
         <Button warning>See Deal!</Button>
