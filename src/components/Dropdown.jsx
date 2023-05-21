@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react"
-const Dropdown = ({ options, selection, onSelect }) => {
+const Dropdown = ({ options, value, onChange }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   const handleClick = () => {
@@ -11,7 +11,7 @@ const Dropdown = ({ options, selection, onSelect }) => {
     // CLOSE DROPDOWN
     setIsOpen(false)
     // WHAT OPTION DID THE USR CLICK ON???
-    onSelect(option)
+    onChange(option)
   }
 
   const renderedOptions = options.map((option) => {
@@ -22,15 +22,10 @@ const Dropdown = ({ options, selection, onSelect }) => {
     )
   })
 
-  let content = "Select..."
-  if (selection) {
-    content = selection.label
-  }
-
   return (
     <div>
       {" "}
-      <div onClick={handleClick}>{content}</div>
+      <div onClick={handleClick}>{value?.label || "Select..."}</div>
       {isOpen && <div>{renderedOptions}</div>}
     </div>
   )
