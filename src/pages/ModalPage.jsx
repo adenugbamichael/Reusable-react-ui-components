@@ -32,6 +32,18 @@ const ModalPage = () => {
         Open Modal
       </Button>
       {showModal && modal}
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque ratione
+        natus nesciunt voluptas eveniet autem deserunt delectus consectetur enim
+        cum. Dolor ratione error ullam blanditiis quia, quibusdam soluta!
+        Fugiat, autem!
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque ratione
+        natus nesciunt voluptas eveniet autem deserunt delectus consectetur enim
+        cum. Dolor ratione error ullam blanditiis quia, quibusdam soluta!
+        Fugiat, autem!
+      </p>
     </div>
   )
 }
