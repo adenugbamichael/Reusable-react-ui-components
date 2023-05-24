@@ -1,4 +1,6 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"); */
+/*
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+*/
 
 @import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
 
@@ -10,11 +12,32 @@ button > svg {
   margin-right: 5px;
 }
 
+/*
 body {
-  /*font-family: "Open Sans", sans-serif;*/
+  font-family: "Open Sans", sans-serif;
   font-family: "Martel Sans", sans-serif;
   line-height: 1.6;
   font-weight: 400;
   text-size-adjust: auto;
   letter-spacing: 1px;
+}
+*/
+
+body {
+  color: #4b5058;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-variant-alternates: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Martel Sans", sans-serif !important;
 }
